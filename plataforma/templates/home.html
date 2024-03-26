@@ -1,0 +1,115 @@
+{% extends 'static/base.html' %}
+{% load static %}
+
+{%block 'title' %}Animes|Home {% endblock %}
+
+{% block 'conteudo' %}
+<br>
+<h1 style="text-align: center;">Lista dos meu animes favoritos</h1>
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="{{dragon_ball.webp}}" class="card-img-top" alt="dragon ball">
+            <div class="card-body">
+              <h5 class="card-title">Dragon ball</h5>
+              <a href="https://pt.wikipedia.org/wiki/Dragon_Ball_(s%C3%A9rie)" target="_blank" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="{% static 'img/dragon_ballz.webp' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dragon ball z</h5>
+              <a href="https://pt.wikipedia.org/wiki/Dragon_Ball_Z" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Naruto</h5>
+              <a href="https://pt.wikipedia.org/wiki/Naruto"  target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Naruto Shippuden</h5>
+              <a href="https://pt.wikipedia.org/wiki/Lista_de_epis%C3%B3dios_de_Naruto_Shippuden" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bleach</h5>
+              <a href="https://pt.wikipedia.org/wiki/Bleach_(mang%C3%A1)" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HunterxHunter</h5>
+              <a href="https://pt.wikipedia.org/wiki/Hunter_%C3%97_Hunter" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fullmetal Alchemista</h5>
+              <a href="https://pt.wikipedia.org/wiki/Fullmetal_Alchemist" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Death Note</h5>
+              <a href="https://pt.wikipedia.org/wiki/Death_Note" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nanatsu no Taizai</h5>
+              <a href="https://pt.wikipedia.org/wiki/Nanatsu_no_Taizai" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo Ghoul</h5>
+              <a href="https://pt.wikipedia.org/wiki/Tokyo_Ghoul" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sword Art Online</h5>
+              <a href="https://pt.wikipedia.org/wiki/Sword_Art_Online" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+{% endblock %}
