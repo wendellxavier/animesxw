@@ -48,7 +48,7 @@ def valida_login(request):
         return redirect('/auth/login/?status=1')
     elif len(usuario) > 0:
         request.session['logado'] = True
-        return redirect('/plataforma/home')
+        return redirect('/plataforma/index')
     
     
 def sair(request):
