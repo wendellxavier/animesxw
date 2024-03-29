@@ -1,0 +1,1 @@
+web: guricorn animeswx.wsgi --log-file -
