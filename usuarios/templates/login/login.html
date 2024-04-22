@@ -23,7 +23,8 @@
         <div class="col-md">
             <h1>Logar</h1>
             <hr>
-            <form method="POST" action="{% url 'valida_login' %}" >{% csrf_token %}
+            <form method="POST" action="{% url 'valida_login' %}">
+                {% csrf_token %}
                 <br>
                 <label>Email:</label>
                 <input name="email" class="form-control" type="email" placeholder="Email...">
